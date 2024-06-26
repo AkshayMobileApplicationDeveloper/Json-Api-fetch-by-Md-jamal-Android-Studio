@@ -41,3 +41,6 @@ dependencies {
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
 }
+dependencies {
+    implementation ("com.android.volley:volley:1.2.1")
+}
