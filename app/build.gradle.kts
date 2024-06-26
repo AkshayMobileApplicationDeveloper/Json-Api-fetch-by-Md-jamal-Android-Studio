@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId = "com.app.api_mdjamal"
-        minSdk = 34
+        minSdk = 31
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -40,4 +40,7 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+}
+dependencies {
+    implementation ("com.android.volley:volley:1.2.1")
 }
